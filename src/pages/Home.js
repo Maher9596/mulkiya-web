@@ -6,6 +6,7 @@ const Home = () => {
 
     const selectedFileHandle = (e) => {
         setSelectedFile(e.target.files[0])
+        console.log(selectedFile)
     }
 
     // const uploadFileHandle = () => {
