@@ -1,8 +1,8 @@
 import React, {useState} from 'react';
-import axios from 'axios'
+// import axios from 'axios'
 
 const Home = () => {
-    const [selectedFile, setSelectedFile] = useState(null)
+    // const [selectedFile, setSelectedFile] = useState(null)
 
     const selectedFileHandle = (e) => {
         setSelectedFile(e.target.files[0])
