@@ -26,10 +26,7 @@ const Home = () => {
 
     return (
         <div>
-            <label>Take  picture</label>
-            <input type="file" id="capture" onChange={selectedFileHandle} accept="image/*" capture />
-            <hr/>
-            <label>Upload picture</label>
+            <label>choose picture</label>
             <input type="file" id="upload" onChange={selectedFileHandle} accept="image/*"/>
             <hr />
             <button disabled>Submit</button> 
