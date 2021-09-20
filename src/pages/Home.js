@@ -25,10 +25,19 @@ const Home = () => {
     // }
 
     return (
-        <div>
-            <label>choose picture</label>
+        <div className="home">
+            <div className="instructions">
+                <p id="title"><strong>INSTRUCTIONS</strong></p>
+                <ul>
+                    <li>Take or upload a picture of your card</li>
+                    <li>Submit your card</li>
+                    <li>Confirm your card details</li>
+                    <li>Receive a notification one week before renewal date</li>
+                </ul>
+            </div>
+            <label for="upload">Choose file</label>
             <input type="file" id="upload" onChange={selectedFileHandle} accept="image/*"/>
-            <button disabled>Submit</button>
+            <button className="submit">Submit</button>
         </div>
     )
 };
