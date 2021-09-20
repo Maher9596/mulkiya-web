@@ -28,7 +28,6 @@ const Home = () => {
         <div>
             <label>choose picture</label>
             <input type="file" id="upload" onChange={selectedFileHandle} accept="image/*"/>
-            <hr />
             <button disabled>Submit</button>
         </div>
     )
