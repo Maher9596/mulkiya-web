@@ -38,3 +38,50 @@ h1, p {
 .link:focus {
     color: #1488CC;
 }
+
+
+.home {
+    height: 70vh;
+    text-align: center;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.instructions {
+    text-align: left;
+    color: black;
+}
+
+#title {
+    letter-spacing: .1em;
+    text-shadow: 1px 1px gray;
+
+}
+
+li {
+    margin-top: 10px;
+}
+
+#upload {
+    display: none;
+}
+
+label {
+    margin-top: 60%;
+    font-size: 1.5rem;
+    color: #1488CC;
+    font-weight: bold;
+}
+
+.submit {
+    margin-top: 15px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    background: white;
+    color: #1488CC;
+    border: none;
+    letter-spacing: .07em;
+}
+
