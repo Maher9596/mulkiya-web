@@ -9,9 +9,7 @@ import Settings from './pages/Settings'
 function App() {
   return (
   <>
-     <div className="header">
-        <h1></h1>
-      </div>     
+     <div className="header"></div>        
     <div className="container">
         <Switch>
           <Route exact path="/"><Home /></Route>
