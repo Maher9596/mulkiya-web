@@ -47,6 +47,7 @@ h1, p {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    /* border: 1px solid red; */
 }
 
 .instructions {
@@ -55,6 +56,7 @@ h1, p {
 }
 
 #title {
+    font-size: 1.2rem;
     letter-spacing: .1em;
     text-shadow: 1px 1px gray;
 
@@ -62,6 +64,7 @@ h1, p {
 
 li {
     margin-top: 10px;
+    font-size: 1.2em;
 }
 
 #upload {
@@ -78,10 +81,14 @@ label {
 .submit {
     margin-top: 15px;
     font-size: 1.5rem;
-    font-weight: bold;
-    background: white;
-    color: #1488CC;
-    border: none;
+    font-weight: 600px;
+    color: black;
+    padding: 5px;
     letter-spacing: .07em;
+    border-radius: 500px;
+    border: none;
+    background:  #1488CC; 
+    background: -webkit-linear-gradient(to right, #2B32B2, #1488CC);
+    background: linear-gradient(to right, #2B32B2, #1488CC);;
 }
 
