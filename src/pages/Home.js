@@ -27,7 +27,7 @@ const Home = () => {
     return (
         <div className="home">
             <div className="instructions">
-                <p id="title"><strong>INSTRUCTIONS</strong></p>
+                <p id="title"><strong>INSTRUCTIONS :-</strong></p>
                 <ul>
                     <li>Take or upload a picture of your card</li>
                     <li>Submit your card</li>
@@ -35,7 +35,7 @@ const Home = () => {
                     <li>Receive a notification one week before renewal date</li>
                 </ul>
             </div>
-            <label for="upload">Choose file</label>
+            <label for="upload">Choose file <i class="fa fa-upload"></i></label>
             <input type="file" id="upload" onChange={selectedFileHandle} accept="image/*"/>
             <button className="submit">Submit</button>
         </div>
