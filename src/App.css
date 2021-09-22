@@ -20,7 +20,7 @@ h1, p {
     background: whitesmoke;
     text-align: center;
     font-size: .6rem;
-    color:lightgray;
+    color:darkgray;
 }
 
 /* #footerText {
@@ -38,7 +38,7 @@ h1, p {
     display: flex;
     justify-content: space-around;
     border-top: .5px solid #1488CC;
-    padding: .8em 2em;
+    padding: .9em 2em;
 }
 
 .link {
