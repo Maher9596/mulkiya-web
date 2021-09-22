@@ -17,7 +17,10 @@ function App() {
           <Route path ="/settings"><Settings /></Route>
         </Switch>
         <Navbar />
-        <div className="footer"><p id="footerText">copyrights mandazi</p></div>
+        <div className="footer">
+          <p id="footerText">copyrights mandazi</p>
+          <p id="footerTextLocation">oman muscat 2021</p>
+        </div>
     </div>
   </>
   );
