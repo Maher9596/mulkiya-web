@@ -16,16 +16,16 @@ h1, p {
 }
 
 .footer {
-    height: 15%;
+    padding: 15px 30px;
     background: whitesmoke;
     text-align: center;
     font-size: .6rem;
     color:lightgray;
 }
 
-#footerText {
-    margin-top: 10px;
-}
+/* #footerText {
+    margin-top: 50%;
+} */
 
 .container {
     height: 90vh;  
@@ -38,7 +38,7 @@ h1, p {
     display: flex;
     justify-content: space-around;
     border-top: .5px solid #1488CC;
-    padding: 1em 2em;
+    padding: .8em 2em;
 }
 
 .link {
