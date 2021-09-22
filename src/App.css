@@ -16,8 +16,15 @@ h1, p {
 }
 
 .footer {
-    height: 10vh;
+    height: 13vh;
     background: whitesmoke;
+    text-align: center;
+    font-size: .6rem;
+    color:lightgray;
+}
+
+#footerText {
+    margin-top: 10px;
 }
 
 .container {
