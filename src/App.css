@@ -107,3 +107,19 @@ label {
     background: linear-gradient(to right, #2B32B2, #1488CC);;
 }
 
+/* ---------------------CARDS PAGE------------------------------------------- */
+
+.card {
+    margin: 10% 7% 0 7%;
+    border: .5px solid black;
+    padding: 60px 15px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 1.8px 1.8px #888888;
+}
+
+.cardSeparator {
+    border-top: 1px solid #1488CC;
+    width: 16%;
+    margin: 10% auto;
+}
