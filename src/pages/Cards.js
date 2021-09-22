@@ -1,9 +1,14 @@
 import React from 'react';
+import Card from '../components/Card'
 
 const Cards = () => {
     return (
-        <div>
-            <h1>Cards page</h1>
+        <div className="cards">
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+            <Card />
         </div>
     );
 };
