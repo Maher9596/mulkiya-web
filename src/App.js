@@ -17,6 +17,7 @@ function App() {
           <Route path ="/settings"><Settings /></Route>
         </Switch>
         <Navbar />
+        <div className="footer"></div>
     </div>
   </>
   );
