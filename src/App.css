@@ -38,7 +38,7 @@ h1, p {
     display: flex;
     justify-content: space-around;
     border-top: .5px solid #1488CC;
-    padding: .9em 2em;
+    padding: .6em 2em 1em 2em;
 }
 
 .link {
