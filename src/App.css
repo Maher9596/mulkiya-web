@@ -23,10 +23,6 @@ h1, p {
     color:darkgray;
 }
 
-/* #footerText {
-    margin-top: 50%;
-} */
-
 .container {
     height: 90vh;  
     display: flex;
@@ -114,10 +110,22 @@ label {
 .card {
     margin: 10% 7% 0 7%;
     border: .5px solid black;
-    padding: 60px 15px;
-    text-align: center;
+    padding: 25px 15px;
+    text-align:justify;
     border-radius: 5px;
-    box-shadow: 1.8px 1.8px #888888;
+    border-color: #1488CC;
+    box-shadow: 1.8px 1.8px #1488CC;
+    background: whitesmoke;
+}
+
+.card p {
+    margin-top: 5px;
+}
+
+.side {
+    width: 40px;
+    height: 90px;
+    background: #1488CC;
 }
 
 .cardSeparator {

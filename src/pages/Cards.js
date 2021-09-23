@@ -7,8 +7,6 @@ const Cards = () => {
             <Card />
             <Card />
             <Card />
-            <Card />
-            <Card />
         </div>
     );
 };
