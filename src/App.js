@@ -9,7 +9,7 @@ import Settings from './pages/Settings'
 function App() {
   return (
   <>
-     <div className="header"></div>        
+     <div className="header"><h1>Mulkiya</h1></div>        
     <div className="container">
         <Switch>
           <Route exact path="/"><Home /></Route>
