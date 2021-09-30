@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-size: 16px;
-    font-family: monospace;
+    font-family: sans-serif;
 }
 
 h1, p {
@@ -132,7 +132,7 @@ label {
     border-top-right-radius: 20px;
     border-bottom-left-radius: 20px;
     border-color: #1488CC;
-    box-shadow: 2.5px 2.5px 2.5px 2.5px rgba(35, 31, 32, .1);
+    box-shadow: 1.5px 1.5px 1.5px 1.5px rgba(35, 31, 32, .1);
     background: white;
 }
 
