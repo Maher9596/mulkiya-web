@@ -22,7 +22,7 @@ h1, p {
     font-size: .9rem;
     font-weight: bolder;
     font-family: monospace;
-    border-image: linear-gradient(to left, black, blue) 1;
+    border-image: linear-gradient(to left, black, #1488cc) 1;
 }
 
 .footer {
@@ -44,7 +44,7 @@ h1, p {
     display: flex;
     justify-content: space-around;
     border-top: .5px solid #1488CC;
-    border-image: linear-gradient(to left, black, blue) 1;
+    border-image: linear-gradient(to left, black, #1488cc) 1;
     padding: .6em 2em 1em 2em;
     top: 15px;
     order: fixed;
@@ -105,15 +105,18 @@ label {
     margin-left: 10%;
     margin-right: 10%;
     font-size: 1.5rem;
-    font-weight: 600px;
-    color: whitesmoke;
+    font-weight: bolder;
+    color: #1488CC;
     padding: 5px;
     letter-spacing: .07em;
-    border-radius: 500px;
-    border: none;
-    background:  #1488CC; 
-    background: -webkit-linear-gradient(to right, #2B32B2, #1488CC);
-    background: linear-gradient(to right, #2B32B2, #1488CC);;
+    border-radius: 100px;
+    border-color: #1488CC;
+    background: white;
+    
+}
+
+.submit:hover:focus {
+    color: #1488CC;
 }
 
 /* ---------------------CARDS PAGE------------------------------------------- */
