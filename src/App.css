@@ -156,3 +156,35 @@ label {
     width: 16%;
     margin: 10% auto;
 }
+
+/* -------------Confirm Details page--------------------- */
+
+.confirmContainer {
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 40%;
+    font-size: 1rem;
+}
+
+.car {
+    margin-top: 20px;
+}
+
+.date {
+    margin-top: 10px;
+}
+
+
+.btn-confirm {
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: #1488CC;
+    padding: 5px;
+    letter-spacing: .07em;
+    border-radius: 100px;
+    border-color: #1488CC;
+    background: white;
+    margin-top: 60px;
+    margin-left: 25%;
+    padding: 10px;
+}
