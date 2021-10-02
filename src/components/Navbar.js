@@ -1,13 +1,6 @@
 import React from 'react';
 import {Link} from 'react-router-dom'
 
-// const getFile = () => {
-//     axios.get("http://34.83.109.164/api/v1/ocr/")
-//     .then(response => {
-//         console.log(response)
-//     })
-// }
-
 const Navbar = () => {
     return (
         <div className="nav">
