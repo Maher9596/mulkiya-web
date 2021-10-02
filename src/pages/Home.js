@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-// import axios from 'axios'
+import axios from 'axios'
 
 const Home = () => {
     const [selectedFile, setSelectedFile] = useState(null)
@@ -9,20 +9,15 @@ const Home = () => {
         console.log(selectedFile)
     }
 
-    // const uploadFileHandle = () => {
-    //     const fd = new FormData()
-    //     fd.append('image', selectedFile, selectedFile.name)
-    //     axios.post("ma7eer url", fd, {
-    //         // I WILL USE THIS TO SHOW THE UPLOAD PROGRESS IN THE UI
-    //         onUploadProgress: ProgressEvent => {
-    //             console.log("upload progress " + Math.round(progressEvent.loaded / progressEvent.total * 100) + "%")
-    //         }
-    //     })
-    //     // TESTING
-    //     .then(res => {
-    //         console.log(res)
-    //     })
-    // }
+    const uploadFileHandle = () => {
+        const fd = new FormData()
+        fd.append('image', selectedFile, selectedFile.name)
+        axios.post("http://34.83.109.164/api/v1/ocr/upload/", fd, {
+        })
+        .then(res => {
+            console.log(res.data)
+        })
+    }
 
     return (
         <div className="home">
@@ -37,7 +32,7 @@ const Home = () => {
             </div>
             <label for="upload">Choose file <i class="fa fa-upload"></i></label>
             <input type="file" id="upload" onChange={selectedFileHandle} accept="image/*"/>
-            <button className="submit">Submit</button>
+            <button className="submit" onClick={uploadFileHandle}>Submit</button>
         </div>
     )
 };
