@@ -23,7 +23,7 @@ const Home = () => {
             setEndDate(res.data.dates.ExpiryDate)
             setIsConfirm(true)
         } catch (error) {
-            console.log(error.message)
+           console.log(error.message)
         }
     }
 
