@@ -19,10 +19,12 @@ h1, p {
     letter-spacing: .1em;
     text-shadow: 1px 1px gray;
     border-bottom: .5px solid #1488CC;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
     font-size: .9rem;
     font-weight: bolder;
     font-family: monospace;
-    border-image: linear-gradient(to left, black, #1488cc) 1;
+    /* border-image: linear-gradient(to left, black, #1488cc) 1; */
 }
 
 .footer {
@@ -44,10 +46,13 @@ h1, p {
     display: flex;
     justify-content: space-around;
     border-top: .5px solid #1488CC;
-    border-image: linear-gradient(to left, black, #1488cc) 1;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    /* border-image: linear-gradient(to left, black, #1488cc) 1; */
     padding: .6em 2em 1em 2em;
     top: 15px;
     order: fixed;
+
 }
 
 .link {
@@ -74,7 +79,6 @@ h1, p {
 .instructions {
     text-align: left;
     color: black;
-
 }
 
 #title {
