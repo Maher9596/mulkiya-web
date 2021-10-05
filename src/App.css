@@ -44,9 +44,8 @@ h1, p {
     display: flex;
     justify-content: space-around;
     border-top: .5px solid #1488CC;
-    border-top-left-radius: 30px;
-    border-top-right-radius: 30px;
-    /* border-image: linear-gradient(to left, black, #1488cc) 1; */
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
     padding: .6em 2em 1em 2em;
     top: 15px;
     order: fixed;
@@ -80,6 +79,10 @@ h1, p {
 .instructions {
     text-align: left;
     color: black;
+    /* border: 1px solid #1488CC;
+    border-radius: 10px;
+    padding: 5px; */
+    
 }
 
 #title {
@@ -136,13 +139,13 @@ label {
     text-align:justify;
     border-top-right-radius: 20px;
     border-bottom-left-radius: 20px;
-    border-color: #1488CC;
     box-shadow: 1.5px 1.5px 1.5px 1.5px rgba(35, 31, 32, .1);
     background: white;
 }
 
-.larger {
-    background: red;
+.card:hover {
+    transform: scale(1.1);
+    border-color: #1488CC;
 }
 
 
