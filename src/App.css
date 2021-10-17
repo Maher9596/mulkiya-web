@@ -79,7 +79,7 @@ h1, p {
 .instructions {
     text-align: left;
     color: black;
-    background: rgba(174, 234, 255, .2);
+    background: rgba(174, 234, 255, .1);
     border-radius: 10px;
     padding: 5px;
     
